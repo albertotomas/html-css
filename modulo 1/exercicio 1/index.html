@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aprendendo novas tags</title>
+</head>
+<body>
+   <h1>O que é HTML?</h1>
+<p><strong>HTML (HyperText Markup Language)</strong> é a linguagem de marcação padrão usada para criar páginas web. Ele estrutura o conteúdo, como textos, imagens, links, tabelas, vídeos, formulários, etc.</p>
+HTML não é uma linguagem de programação – ele não tem lógica, como "if", "for", "funções", etc. Seu papel é estruturar a informação e dizer ao navegador o que é o quê.
+
+ <h2>Estrutura básica de um documento HTML</h2>
+html
+CopyEdit
+
+   
+        &lt;!DOCTYPE html&gt; &lt;html lang="pt-br"&lt; &lt;head&gt;
+          &lt;meta charset="UTF-8"&gt;
+          &lt;title&gt;Minha Página &lt;/title&gt;</head><body>
+          <h1>Olá, mundo!</h1>
+          <p>Essa é minha primeira página HTML.</p></body></html>
+   
+
+Explicando:
+
+<
+>: define o tipo do documento.
+
+
+<html>: a raiz do documento HTML.
+
+
+<head>: metadados (título, codificação, links de CSS/JS...).
+
+
+<body>: o conteúdo visível da página.
+
+
+🔤 Principais tags HTML
+Estrutura
+
+<html>, <head>, <body>, <title>, <meta>
+
+Texto
+
+<h1> até <h6>: títulos.
+
+
+<p>: parágrafo.
+
+
+<strong> e <em>: destaque.
+
+
+<br>: quebra de linha.
+
+
+<hr>: linha horizontal.
+
+Listas
+
+<ul>: lista não ordenada.
+
+
+<ol>: lista ordenada.
+
+
+<li>: item de lista.
+
+Links e imagens
+
+<a href="url">: link.
+
+
+<img src="imagem.jpg" alt="descrição">: imagem.
+
+Tabelas
+
+<table>, <tr>, <td>, <th>, <thead>, <tbody>, <tfoot>
+
+Formulários
+
+<form>, <input>, <textarea>, <select>, <button>, <label>
+
+Multimídia
+
+<audio>, <video>, <iframe>
+
+
+🎨 HTML + CSS + JavaScript
+O HTML estrutura, o CSS estiliza, e o JavaScript adiciona interatividade.
+html
+CopyEdit
+<!DOCTYPE html><html><head>
+  <style>
+    p { color: blue; }
+  </style></head><body>
+  <p onclick="alert('Oi!')">Clique aqui</p>
+  <script>
+    console.log('Página carregada!');
+  </script></body></html>
+
+🌐 HTML5 – A versão atual
+HTML5 trouxe novas tags semânticas (como <header>, <footer>, <article>, <section>, etc.) e suporte a áudio, vídeo, validação de formulários, geolocalização e muito mais.
+
+🛠️ Ferramentas úteis para trabalhar com HTML
+
+Editores: VS Code, Sublime Text, Notepad++
+
+
+Validador: validator.w3.org
+
+
+Inspecionar Elemento: Ferramentas do desenvolvedor do navegador
+
+
+📚 Quer aprender mais?
+Posso montar para você:
+
+Um passo a passo completo do zero ao avançado
+
+
+Exemplos interativos
+
+
+Um mini curso em tópicos
+
+Quer que eu crie um guia passo a passo para você começar a programar com HTML?
+You said:
+sim
+ChatGPT said:
+Perfeito! Aqui está um guia passo a passo para você começar a programar com HTML, do zero até um nível intermediário. Vamos montar como se fosse um mini curso. Cada etapa tem uma explicação + exercícios práticos.
+
+🧑‍🏫 GUIA HTML – Do Zero ao Intermediário
+
+🚀 Etapa 1: O que é HTML e como criar seu primeiro arquivo
+✅ O que aprender:
+
+O que é HTML
+
+
+Como criar um arquivo .html
+
+
+Estrutura básica de uma página
+
+📄 Exemplo básico:
+html
+CopyEdit
+<!DOCTYPE html><html lang="pt-br"><head>
+  <meta charset="UTF-8">
+  <title>Minha Primeira Página</title></head><body>
+  <h1>Olá, mundo!</h1>
+  <p>Essa é minha primeira página em HTML!</p></body></html>
+🛠️ Exercício:
+1.
+Crie um arquivo chamado index.html.
+2.
+3.
+Copie e cole o código acima.
+4.
+5.
+Abra no navegador e veja o resultado.
+6.
+
+🧱 Etapa 2: Elementos e tags comuns
+✅ O que aprender:
+
+Títulos (<h1> a <h6>)
+
+
+Parágrafos (<p>)
+
+
+Negrito e itálico (<strong>, <em>)
+
+
+Quebra de linha (<br>), linha horizontal (<hr>)
+
+🛠️ Exercício:
+Crie uma página com:
+
+Um título grande
+
+
+Dois parágrafos
+
+
+Um texto em negrito e outro em itálico
+
+
+Uma linha divisória entre parágrafos
+
+
+📋 Etapa 3: Listas e Links
+✅ O que aprender:
+
+Lista ordenada (<ol>)
+
+
+Lista não ordenada (<ul>)
+
+
+Links com <a href="...">
+
+🛠️ Exercício:
+
+Crie uma lista de compras com marcadores
+
+
+Crie um ranking com lista numerada
+
+
+Adicione um link que leve até Google
+
+
+🖼️ Etapa 4: Imagens e vídeos
+✅ O que aprender:
+
+Imagem: <img src="caminho" alt="descrição">
+
+
+Vídeo: <video controls>
+
+🛠️ Exercício:
+
+Coloque uma imagem da sua máquina ou da internet
+
+
+Adicione um vídeo (pode ser local ou do YouTube via <iframe>)
+
+
+📦 Etapa 5: Tabelas
+✅ O que aprender:
+
+<table>, <tr>, <td>, <th>
+
+
+Cabeçalhos e células
+
+🛠️ Exercício:
+Monte uma tabela com:
+
+Nome, idade e profissão de 3 pessoas
+
+
+📮 Etapa 6: Formulários
+✅ O que aprender:
+
+<form>, <input>, <label>, <textarea>, <button>
+
+
+Tipos: texto, email, senha, botão, checkbox
+
+🛠️ Exercício:
+Crie um formulário de contato com:
+
+Nome
+
+
+Email
+
+
+Mensagem
+
+
+Botão "Enviar"
+
+
+🎨 Etapa 7: HTML + CSS básico
+✅ O que aprender:
+
+Como aplicar estilo com a tag <style>
+
+
+Mudar cor, fonte, tamanho
+
+📄 Exemplo:
+html
+CopyEdit
+<style>
+  body {
+    background-color: #f0f0f0;
+    font-family: Arial;
+  }
+  h1 {
+    color: blue;
+  }</style>
+🛠️ Exercício:
+
+Mude a cor de fundo da página
+
+
+Altere a cor e o tamanho dos títulos e parágrafos
+
+
+📂 Etapa 8: Organização do conteúdo com HTML5
+✅ O que aprender:
+
+Tags semânticas: <header>, <footer>, <main>, <section>, <article>, <nav>
+
+🛠️ Exercício:
+
+Crie uma página com:
+
+o
+Um cabeçalho
+o
+o
+Um menu de navegação
+o
+o
+Um conteúdo principal com seções
+o
+o
+Um rodapé
+o
+
+🎓 Etapa 9: Projeto final simples
+Crie uma página pessoal com:
+
+Seu nome no título
+
+
+Uma foto
+
+
+Uma pequena biografia
+
+
+Links para redes sociais
+
+
+Uma lista de hobbies
+
+
+Um formulário de contato
+
+
+Se quiser, posso montar um arquivo HTML completo como exemplo final, ou criar um PDF com todo o conteúdo.
+Quer que eu gere o arquivo final de exemplo ou algum modelo pronto para você editar?
+
+
+
+
+</body>
+</html>

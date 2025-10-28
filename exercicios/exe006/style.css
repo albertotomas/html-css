@@ -1,0 +1,20 @@
+
+header#cabecalho{
+    border: 1px solid black;
+}
+h1{
+    border: 1px solid black;
+}
+table{
+    border: 1px solid black;
+    padding: 0px;
+    margin: 0px;
+}
+td{
+    border: 1px solid black;
+   padding: 0px;
+   margin: 0px;
+}
+tr{
+    padding: 0px;
+}
