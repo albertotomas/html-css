@@ -1,8 +1,11 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 
 body{
     text-align: justify;
 }
-div.interface{
+main#interface{
     width: 900px;
-    
 }
