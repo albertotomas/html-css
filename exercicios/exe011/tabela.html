@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgrey;
+        }
+        table{
+            width: 500px;
+          border-collapse: collapse;
+        }
+        td , th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        thead ,tfoot{
+            background-color: gray;
+            color: white;
+        }
+        .num{
+            text-align: right;
+        }
+        tbody tr:nth-child(even){
+            background-color: lightgrey;
+        }
+    </style>
+</head>
+<body>
+    <h1>uso de tabelas grandes</h1>
+
+    <table>
+        <caption>populacao das provicias de mocambique</caption>
+        <thead>
+<tr>
+    <th scope="col">provicia</th>
+    <th scope="col" style="width: 50px;">populacao</th>
+</tr>
+        </thead>
+
+        <tbody>
+<tr>
+    <td>maputo.p</td>
+    <td class="num">45.957.055</td>
+</tr>
+
+<tr>
+    <td>maputo.c</td>
+    <td class="num">42.567.867</td>
+</tr>
+
+<tr>
+    <td>gaza</td>
+    <td class="num">46.858.495</td>
+</tr>
+
+<tr>
+    <td>manica</td>
+    <td class="num">56.867.456</td>
+</tr>
+
+
+<tr>
+    <td>inhanbane</td>
+    <td class="num">24.857.847</td>
+</tr>
+
+<tr>
+    <td>sofala</td>
+    <td class="num">48.578.8566</td>
+</tr>
+
+<tr>
+    <td>tete</td>
+    <td class="num">46.587.264</td>
+</tr>
+
+<tr>
+    <td>zambezia</td>
+    <td class="num">57.848.938</td>
+</tr>
+
+<tr>
+    <td>nampula</td>
+    <td class="num">26.457.475</td>
+</tr>
+
+<tr>
+    <td>cabo delgado</td>
+    <td class="num">14.487.847</td>
+</tr>
+
+<tr>
+    <td>niassa</td>
+    <td class="num">54.746.756</td>
+</tr>
+        </tbody>
+
+        <tfoot>
+<tr>
+    <th scope="row">total de habitantes</th>
+    <td><strong>124.485.564</strong></td>
+</tr>
+        </tfoot>
+    </table>
+</body>
+</html>
